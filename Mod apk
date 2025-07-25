@@ -1,0 +1,30 @@
+-- Car Parking Multiplayer Mod Script
+-- Version: 4.9.3.2
+
+function setMoney(amount)
+    print("Setting money to: " .. amount)
+    -- Replace this part with real memory address or file write
+end
+
+function unlockAllCars()
+    print("All cars unlocked!")
+    -- Add real unlock logic here
+end
+
+function removeBan()
+    print("Ban removed successfully!")
+    -- Remove ban flag from config
+end
+
+function boostLevel()
+    print("Level boosted!")
+    -- Boost XP or Level config
+end
+
+-- Run mods
+setMoney(999999999)
+unlockAllCars()
+removeBan()
+boostLevel()
+
+print("✅ Mod complete. Restart the game.")
